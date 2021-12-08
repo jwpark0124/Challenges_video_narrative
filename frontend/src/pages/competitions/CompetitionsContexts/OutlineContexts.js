@@ -19,10 +19,23 @@ function OutlineContexts({ OutlineContexts }) {
       {/* {temp.data} */}
       <div className="mb-12">
         <div className="mt-5 mx-8">
+          {' '}
           <span className="text-xs sm:text-base md:text-xl lg:text-2xl font-bold">
-            대회기간 연장 공고: 21년 11월 18일 ~ 21년 12월
+            *** 공지 - 12월 7일 ***
+          </span>
+        </div>
+        <div className="mt-2 mx-8">
+          <span className="text-xs sm:text-base md:text-xl lg:text-2xl font-bold">
+            참가기간 연장 : 21년 12월 15일까지
+          </span>
+        </div>
+
+        <div className="mt-2 mx-8">
+          <span className="text-xs sm:text-base md:text-xl lg:text-2xl font-bold">
+            대회기간 연장 : 21년 11월 18일 ~ 21년 12월
             <span className="ml-1 text-gray-500 line-through">10일</span>
             <span className="ml-1 text-red-800">15일</span>
+            <span className="ml-1">까지</span>
           </span>
         </div>
         <div className="mt-6 mx-4">
