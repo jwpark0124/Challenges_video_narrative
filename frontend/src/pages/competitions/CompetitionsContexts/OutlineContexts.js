@@ -4,7 +4,6 @@
 import styled from 'styled-components';
 import submit from '../../../../src/assets/해커톤_참가신청서.hwp';
 import aiposter from '../../../../src/assets/AI_challenges_poster.jpg';
-
 import submitJsonTest from '../../../../src/assets/test.json.zip';
 import ContextBottom from 'components/AppLayoutComponents/ContextBottom';
 import Fileupload from 'utils/Fileupload';
@@ -80,11 +79,7 @@ function OutlineContexts({ OutlineContexts }) {
             <StyledUl>
               <Styledli className="list-inside list-disc">
                 *
-                <a
-                  className="underline text-blue-500 "
-                  href={submitJsonTest}
-                  download="test.json"
-                >
+                <a className="underline text-blue-500 " href={submitJsonTest}>
                   첨부
                 </a>
                 파일의 형식을 참고하여 리더보드에 제출
