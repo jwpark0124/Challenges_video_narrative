@@ -24,7 +24,7 @@ function Fileupload() {
     formData.append('userfile', selectedFile, selectedFile.name);
 
     axios
-      .post('http://:3194/uploadfile', formData)
+      .post('http://143.248.135.30:3194/uploadfile', formData)
       .then((res) => {
         console.log(res);
         if (res.data === 'success') {
