@@ -14,7 +14,7 @@ function DatasetContexts({ DatasetContexts }) {
     <>
       <div className="mb-12">
         <div className="mt-6 mx-4">
-          <Fileupload />
+          {/* <Fileupload /> */}
           <div className="mt-6 text-base md:text-xl lg:text-2xl font-bold">
             데이터 구조
           </div>

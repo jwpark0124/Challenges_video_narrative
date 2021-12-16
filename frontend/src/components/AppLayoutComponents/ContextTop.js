@@ -36,7 +36,7 @@ function ContextTop(props) {
   return (
     <>
       <div className="text-xl flex flex-wrap mt-10 p-0 justify-center items-center bg-red-300 w-3/4 rounded-t-2xl">
-        진행중
+        종료
       </div>
       <div className="bg-white p-2 px-auto w-3/4 border-solid border-b border-opacity-20 border-gray-500">
         <div className="flex justify-center space-x-2 sm:space-x-8 md:space-x-20">

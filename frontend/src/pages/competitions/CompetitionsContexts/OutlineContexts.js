@@ -38,7 +38,7 @@ function OutlineContexts({ OutlineContexts }) {
           </span>
         </div>
         <div className="mt-6 mx-4">
-          <Fileupload />
+          {/* <Fileupload /> */}
           <div className="mt-6 mx-4 text-base md:text-xl lg:text-2xl font-bold">
             2021 한국어 질의응답 AI 경진대회: 비디오 네러티브 질의응답 태스크
             {/* {title} */}
